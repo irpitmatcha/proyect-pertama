@@ -1,27 +1,40 @@
 # Project Pertama
 
-Project Pertama adalah proyek web statis sederhana dengan tema konsep Game Block. Repo ini sekarang sudah punya landing page yang lebih rapi, responsif, dan siap dijadikan dasar untuk pengembangan lebih lanjut atau dipublikasikan lewat GitHub Pages.
+Project Pertama adalah starter project web statis untuk landing page bertema Game Block. Repo ini dibuat agar langsung layak dipajang di GitHub: tampil rapi, responsif, mudah dipahami, dan siap dipublikasikan lewat GitHub Pages.
 
-## Fitur
+## Ringkasan
 
-- Tampilan modern dengan HTML, CSS, dan JavaScript murni
-- Layout responsif untuk desktop dan mobile
-- Interaksi ringan lewat tombol tips acak
-- Struktur sederhana, cocok untuk proyek GitHub pertama
+- Dibangun dengan HTML, CSS, dan JavaScript tanpa framework
+- Memiliki landing page modern yang responsif
+- Cocok sebagai repo GitHub pertama atau dasar pengembangan game sederhana
 
-## Struktur File
+## Struktur Proyek
 
-- `index.html` untuk struktur halaman
-- `style.css` untuk tampilan dan animasi
-- `script.js` untuk interaksi ringan
+- `index.html` berisi struktur utama halaman
+- `style.css` berisi tema visual, layout, dan animasi
+- `script.js` berisi interaksi ringan untuk tips acak
 
-## Cara Menjalankan
+## Menjalankan Proyek
 
-1. Clone atau buka repo ini di komputer lokal.
-2. Buka `index.html` langsung di browser.
+1. Clone repository ini atau buka folder proyek di komputer lokal.
+2. Buka `index.html` di browser.
 
-## Ide Pengembangan
+## Publikasi ke GitHub
 
-1. Tambahkan gameplay block yang sebenarnya.
-2. Buat sistem skor dan level.
-3. Publikasikan proyek ini ke GitHub Pages.
+1. Buat repository baru di GitHub.
+2. Pastikan remote `origin` mengarah ke repository tersebut.
+3. Jalankan `git add .`, lalu `git commit -m "Initial static web project"`.
+4. Jalankan `git push -u origin main`.
+
+## Deploy ke GitHub Pages
+
+1. Buka halaman repository di GitHub.
+2. Masuk ke `Settings` lalu `Pages`.
+3. Pilih branch `main` dan folder root (`/`).
+4. Simpan, lalu tunggu URL publik GitHub Pages aktif.
+
+## Pengembangan Lanjutan
+
+1. Tambahkan area game yang benar-benar interaktif.
+2. Buat sistem skor, level, dan status permainan.
+3. Pisahkan logika game ke struktur JavaScript yang lebih modular.
